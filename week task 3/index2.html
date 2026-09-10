@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Interactive frontend website created using HTML, CSS and JavaScript">
+
+    <title>CodeFlow - Interactive Web Experience</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="container navbar">
+
+            <a href="#home" class="logo">
+                Code<span>Flow</span>
+            </a>
+
+            <nav class="navigation" id="navigation">
+
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#services">Services</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+            <div class="header-actions">
+
+                <button
+                    class="theme-button"
+                    id="themeButton"
+                    aria-label="Change theme">
+                    ☀
+                </button>
+
+                <button
+                    class="menu-button"
+                    id="menuButton"
+                    aria-label="Open menu">
+                    ☰
+                </button>
+
+                <a href="#contact" class="header-button">
+                    Start Now
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero" id="home">
+
+            <div class="container hero-content">
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">
+                        JAVASCRIPT INTERACTIVE EXPERIENCE
+                    </p>
+
+                    <h1>
+                        Make Your Website
+                        <span>Come Alive.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        A simple frontend project demonstrating how
+                        JavaScript can make a static website interactive,
+                        dynamic and more user-friendly.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#features" class="primary-button">
+                            Explore Features
+                        </a>
+
+                        <button
+                            class="outline-button"
+                            id="welcomeButton">
+                            Say Hello
+                        </button>
+
+                    </div>
+
+                    <p class="welcome-message" id="welcomeMessage"></p>
+
+                </div>
+
+
+                <div class="hero-card">
+
+                    <div class="code-window">
+
+                        <div class="window-header">
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </div>
+
+                        <div class="code-content">
+
+                            <p>
+                                <span class="code-purple">const</span>
+                                website =
+                                <span class="code-orange">"CodeFlow"</span>;
+                            </p>
+
+                            <p>
+                                website.
+                                <span class="code-blue">interactive</span>
+                                =
+                                <span class="code-green">true</span>;
+                            </p>
+
+                            <p>
+                                <span class="code-purple">function</span>
+                                <span class="code-blue">createExperience</span>() {
+                            </p>
+
+                            <p class="indent">
+                                return
+                                <span class="code-orange">
+                                    "Amazing!"
+                                </span>;
+                            </p>
+
+                            <p>}</p>
+
+                            <p class="cursor">
+                                _
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= STATS ================= -->
+
+        <section class="stats">
+
+            <div class="container stats-grid">
+
+                <div class="stat">
+                    <strong class="counter" data-target="10">0</strong>
+                    <span>Interactive Features</span>
+                </div>
+
+                <div class="stat">
+                    <strong class="counter" data-target="100">0</strong>
+                    <span>Responsive Design</span>
+                </div>
+
+                <div class="stat">
+                    <strong class="counter" data-target="5">0</strong>
+                    <span>JavaScript Concepts</span>
+                </div>
+
+                <div class="stat">
+                    <strong class="counter" data-target="24">0</strong>
+                    <span>Hours of Learning</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="features section" id="features">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p>JAVASCRIPT FEATURES</p>
+
+                    <h2>
+                        Interaction Made Simple
+                    </h2>
+
+                    <span>
+                        The page uses JavaScript to respond to user
+                        actions and update the interface dynamically.
+                    </span>
+
+                </div>
+
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            01
+                        </div>
+
+                        <h3>
+                            Interactive Menu
+                        </h3>
+
+                        <p>
+                            The mobile navigation opens and closes
+                            using JavaScript event handling.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            02
+                        </div>
+
+                        <h3>
+                            Theme Switcher
+                        </h3>
+
+                        <p>
+                            Users can switch between light and dark
+                            themes with a single button.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            03
+                        </div>
+
+                        <h3>
+                            Form Validation
+                        </h3>
+
+                        <p>
+                            JavaScript checks form fields before
+                            allowing the form to be submitted.
+                        </p>
+
+                    </article>
+
+
+                    <article class="feature-card">
+
+                        <div class="feature-icon">
+                            04
+                        </div>
+
+                        <h3>
+                            Dynamic Content
+                        </h3>
+
+                        <p>
+                            Counters, messages and character counts
+                            are updated dynamically through the DOM.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FAQ ================= -->
+
+        <section class="faq section" id="faq">
+
+            <div class="container faq-container">
+
+                <div class="section-heading">
+
+                    <p>FREQUENTLY ASKED QUESTIONS</p>
+
+                    <h2>
+                        Quick Answers
+                    </h2>
+
+                </div>
+
+
+                <div class="faq-list">
+
+                    <div class="faq-item">
+
+                        <button class="faq-question">
+                            What is JavaScript used for?
+
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                JavaScript is used to add dynamic
+                                behaviour and interaction to websites.
+                                It can respond to clicks, validate
+                                forms and update page content.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item">
+
+                        <button class="faq-question">
+                            What is DOM manipulation?
+
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                DOM manipulation means using JavaScript
+                                to access and change HTML elements,
+                                content, attributes or styles.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item">
+
+                        <button class="faq-question">
+                            What are event listeners?
+
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                Event listeners allow JavaScript to
+                                detect actions such as clicks, typing,
+                                scrolling and form submission.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="faq-item">
+
+                        <button class="faq-question">
+                            Why is form validation important?
+
+                            <span>+</span>
+                        </button>
+
+                        <div class="faq-answer">
+
+                            <p>
+                                Form validation helps make sure that
+                                users enter the required information
+                                in the correct format.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="contact section" id="contact">
+
+            <div class="container contact-layout">
+
+                <div class="contact-info">
+
+                    <p class="eyebrow">
+                        GET IN TOUCH
+                    </p>
+
+                    <h2>
+                        Let's Build Something Interactive
+                    </h2>
+
+                    <p>
+                        This form demonstrates client-side validation
+                        and dynamic feedback using JavaScript.
+                    </p>
+
+                </div>
+
+
+                <form class="contact-form" id="contactForm" novalidate>
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name">
+
+                        <small id="nameError"></small>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email">
+
+                        <small id="emailError"></small>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            maxlength="200"
+                            placeholder="Write your message"></textarea>
+
+                        <div class="message-info">
+
+                            <small id="messageError"></small>
+
+                            <span id="characterCount">
+                                0 / 200
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="submit-button">
+                        Send Message
+                    </button>
+
+                    <p
+                        class="form-success"
+                        id="formSuccess">
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= SCROLL TOP ================= -->
+
+    <button
+        id="scrollTop"
+        class="scroll-top"
+        aria-label="Scroll to top">
+        ↑
+    </button>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">
+                Code<span>Flow</span>
+            </a>
+
+            <p>
+                © 2026 CodeFlow. Built for Week 3 Internship Task.
+            </p>
+
+            <div class="footer-links">
+
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
